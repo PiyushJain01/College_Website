@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+/* Navbar */
+.nav-item {
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font-weight: 600;
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    border-radius: 2px;
+
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    background: rgb(56, 13, 95);
+    color: #fff !important;
+    transition: 0.5s
+
+}
+
+.navbar-light .navbar-nav .nav-item button {
+    border: none;
+    background-color: rgb(56, 13, 95);
+    color: #fff;
+    padding: 10px 20px !important;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: #262626 !important; 
+    padding: 5px 12px !important;
+
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    color: #fff;
+    border: 2px solid #7f7f7f;
+    border-radius: 0;
+
+}
+.nav-item{
+    border-radius: 6px;
+}
+
+.navbar-brand img{
+    left: -10px;
+    width: 166px;
+    height: 165px;
+    padding: 0px;
+    position: relative;
+    top: -24px;
+}
+
+.navbar-brand {
+    top: -20px;
+    height: 70px;
+    position: relative;
+}
+
+
+.navbar-collapse {
+    background: #fff;
+}
+/* Header 1 */
+.headrow {
+    background: rgb(56, 13, 95);
+    height: auto;
+}
+.head .row {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.headrow .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    color: white;
+}
+.img-fluid {
+    position: relative;
+    top: 10px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+/* Courses  */
+.course .row {
+    background-color: rgb(66, 65, 65);
+    width: 100%;
+    margin: 0px auto;
+}
+
+.course .row .col {
+    margin-bottom: 1rem;
+}
+
+.course .row .col-lg-3 {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(116, 155, 192);
+    border: none;
+    padding: 7px;
+    color: rgb(245, 238, 238);
+    font-weight: 500;
+    text-align: left;
+}
+
+.fa-chevron-right {
+    float: right;
+    font-size: 20px;
+}
+
+/* About section */
+.about {
+    overflow: hidden;
+}
+.about p {
+    line-height: 30px;
+}
+.about .d-flex {
+    flex-direction: column;
+}
+
+.about .row .col-lg-8 {
+    overflow: hidden;
+}
+
+.about .col-lg-7 img {
+    max-width: 100%; 
+    min-height: 100% !important;
+}
+#news .d-flex {
+    flex-direction: column;
+}
+button {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+/* Footer section */
+.footer i {
+    border-radius: 50%;
+    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.footer .fab {
+    font-size: 20px;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    /* color: black; */
+    cursor: pointer;
+}
+
+.footer i:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.fa-facebook-f {
+    background: #4267B2;
+    color: white;
+}
+
+.fa-instagram {
+    background: #C13584;
+}
+
+.fa-twitter {
+    background: #1DA1F2;
+}
+
+.fa-linkedin-in {
+    background: #0077b5;
+}
+
+.fa-google-plus-g {
+    background: #db4a39;
+}
+
+@media (max-width:990px) {
+    .navbar-collapse {
+        background: #262626 ;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-item.active .nav-link {
+        display: inline;
+        background: rgb(195, 166, 224);
+        color: #000 !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff !important;
+        padding: 5px 15px;
+    }
+
+    .navbar-light .navbar-nav .nav-item button {
+        font-size: 15px;
+        padding: 5px 25px !important;
+        background: rgb(195, 166, 224);
+        color: black;
+        font-weight: bold;
+    }
+
+}
+@media (max-width:858px) {
+   
+    .headrow .col-md-4 {
+        font-size: 12px;
+    }
+    .footer .fab {
+        width: 40px;
+        height: 40px;
+    }
+    #news h2, p {
+        text-align: center;
+    }
+}
